@@ -3,16 +3,18 @@
 
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/5679607545cadf46939de2878cca5b8accee0079/assets/images/H%20BRIDGE%20CIRCUITS_2a.gif" alt="H-Bridge Circuit Diagram" width="70%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
   
   <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
-  <p style="color: #555; font-size: 1.1em;">
-    This diagram shows the basic structure of an H-Bridge circuit used to control the direction and speed of DC motors.
+  <p align="justify" style="color: #555; font-size: 1.5em;">
+   The H-Bridge Circuit is essential for controlling the speed and direction of DC motors. It is named after its unique "H" shape configuration and is widely used in robotics, embedded systems, and automation projects. The circuit enables smooth motor rotation in both forward and reverse directions by switching the current flow across the motor.
+
   </p>
 </div>
 
+---
 
-The H-Bridge Circuit is essential for controlling the speed and direction of DC motors. It is named after its unique "H" shape configuration and is widely used in robotics, embedded systems, and automation projects. The circuit enables smooth motor rotation in both forward and reverse directions by switching the current flow across the motor.
+</br>
 
 
 

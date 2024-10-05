@@ -1,4 +1,4 @@
-# 🎨 **H-Bridge Circuit Guide: Control Your DC Motor Like a Pro** 🛠️
+# 🎨 **H-Bridge Circuit Guide:** ***Control Your DC Motor Like a Pro*** 🛠️
 
 The H-Bridge Circuit is essential for controlling the speed and direction of DC motors. It is named after its unique "H" shape configuration and is widely used in robotics, embedded systems, and automation projects. The circuit enables smooth motor rotation in both forward and reverse directions by switching the current flow across the motor.
 

@@ -61,8 +61,8 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 ### Example: H-Bridge Circuit with Transistors
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 40%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/371d179cd57c97ad1d82e3bd396f6d85d30a6f02/assets/images/DC%20Motor2.gif" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">H-Bridge Circuit with Transistors</h3>
 </div>
 
@@ -111,8 +111,8 @@ In an H-Bridge circuit, the **placement of transistors** is crucial for the corr
 
 By placing **PNP transistors on the upper side** and **NPN transistors on the lower side**, you can control the **direction of current flow** and ensure proper operation of the H-Bridge circuit for **bidirectional motor control** or other applications like **inverters** and **power amplifiers**.
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 50%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/371d179cd57c97ad1d82e3bd396f6d85d30a6f02/assets/images/555_PWM.jpg" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">H-Bridge Circuit with PNP and NPN Transistors</h3>
 </div>
 
@@ -146,8 +146,8 @@ To address this, you can use a **PNP transistor** to supply the needed higher vo
 
 This allows you to measure the **12.3V DC** output using a multimeter or directly connect it to a **DC motor**.
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/5679607545cadf46939de2878cca5b8accee0079/assets/images/H%20BRIDGE%20CIRCUITS_2a.gif" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 50%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/371d179cd57c97ad1d82e3bd396f6d85d30a6f02/assets/images/DC%20Motor%204.jpg" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">H-Bridge Circuit with PNP and NPN Transistors</h3>
 </div>
 
@@ -172,7 +172,7 @@ Once the transistor placement is sorted, you can now focus on **switching** to c
 For example:
 - **Closing Switch 1 and Switch 4** while **Opening Switch 2 and Switch 3** will cause the current to flow in a direction that results in forward rotation of the motor.
   
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 40%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/5679607545cadf46939de2878cca5b8accee0079/assets/images/H%20BRIDGE%20CIRCUITS_2b.gif" alt="H-Bridge Circuit Current Flow Diagram" width="60%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">Current Flow in H-Bridge Circuit (Switch 1 & 4 Closed)</h3>
 </div>
@@ -287,7 +287,7 @@ This organized flow ensures correct **voltage boosting**, **safe motor operation
 
 # 🎨 **Full Bridge Sine Inverter Circuit Guide:** ***Transform Your DC to AC Power with Ease*** ⚡
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 50%; margin: auto;">
   <img src="https://example.com/full_bridge_inverter.gif" alt="Full Bridge Inverter Circuit Diagram" width="60%" style="border-radius: 8px;">
   
   <h3 style="margin-top: 20px;">Full Bridge Inverter Circuit Diagram</h3>
@@ -569,11 +569,4 @@ These resources offer practical and theoretical insights into H-Bridge circuits 
    - [Read the Paper](https://link.springer.com/chapter/10.1007/978-3-319-67362-4_16)
 
 ---
-
-
-
-
-
-
-
 

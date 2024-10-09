@@ -1,7 +1,7 @@
 # 🎨 **H-Bridge Circuit Guide:** ***Control Your DC Motor Like a Pro*** 🛠️
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/af3ed22c99e6b4c4dda2b82cd099a4f8e237fb85/assets/images/H%20BRIDGE%20CIRCUITS.gif" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
   
   <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
   <p align="justify" style="color: #555; font-size: 1.5em;">
@@ -163,6 +163,13 @@ If you connect an **NPN transistor** in the same way (to the positive voltage ou
 ---
 
 </br>
+
+
+
+
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
+</div>
 
 
 ### 🔄 **Controlling Motor Rotation**

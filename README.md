@@ -58,7 +58,7 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 ### Example: H-Bridge Circuit with Transistors
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 40%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/371d179cd57c97ad1d82e3bd396f6d85d30a6f02/assets/images/DC%20Motor2.gif" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/c9a6fa3914d6b2e107c8326d4fe7ebf02e52e27d/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN).gif" alt="H-Bridge Circuit Diagram" width="70%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">H-Bridge Circuit with Transistors</h3>
 </div>
 

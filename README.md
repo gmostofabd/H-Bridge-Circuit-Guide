@@ -3,20 +3,20 @@
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/1ff3556ab04c3834a8773daedc25ae04b6482cfe/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN)_3.gif" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
-</div>
+</div>  
 
 ---
 
-</br>
 
 ### ⚡ **Overview**
+<p align="left">
 The **H-Bridge Circuit** is essential for controlling the **speed** and **direction** of **DC motors**. It is named after its unique "H" shape configuration and is widely used in **robotics**, **embedded systems**, and **automation** projects. The circuit enables smooth motor rotation in both **forward** and **reverse** directions by switching the current flow across the motor.
+</p>
 
-</br>
 
 ---
 
-</br>
+
 
 # ✨ **Key Features**
 
@@ -24,25 +24,25 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
 </div>
 
-</br>
+
 
 
 - 🔄 **Bidirectional Control**: Seamlessly switch between **forward** and **reverse** motor rotation.
 - 🛠️ **Speed Regulation**: Use **Pulse Width Modulation (PWM)** for fine-grained control over motor speed.
 - ⚙️ **Efficient Design**: Built using **MOSFETs** or **BJTs** for optimized performance, making it ideal for both **low-power** and **high-power** applications.
 
-</br>
+
 
 ---
 
-</br>
+
 
 
 
 
 ### 🛠️ **Key Considerations for H-Bridge Circuit Design**
 
-</br>
+
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
@@ -89,7 +89,9 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 ### 🛠️ **Locating Transistors in an H-Bridge Circuit**
 
-In an H-Bridge circuit, the **placement of transistors** is crucial for the correct operation of the circuit. As shown in the image above, **PNP transistors** are located at the **upper side** of the circuit, while **NPN transistors** are positioned at the **bottom side**.
+<p align="left">
+In an H-Bridge circuit, the **placement of transistors** is crucial for the correct operation of the circuit. As shown in the image above, **PNP transistors** are located at the **upper side** of the circuit, while **NPN transistors** are positioned at the **bottom side**.  
+</p>
 
 ---
 
@@ -111,11 +113,11 @@ In an H-Bridge circuit, the **placement of transistors** is crucial for the corr
 
 </br>
 
-
-By placing **PNP transistors on the upper side** and **NPN transistors on the lower side**, you can control the **direction of current flow** and ensure proper operation of the H-Bridge circuit for **bidirectional motor control** or other applications like **inverters** and **power amplifiers**.
+<p align="left">
+By placing **PNP transistors on the upper side** and **NPN transistors on the lower side**, you can control the **direction of current flow** and ensure proper operation of the H-Bridge circuit for **bidirectional motor control** or other applications like **inverters** and **power amplifiers**.  
+</p>
 
 This approach ensures efficient current flow management and helps you avoid common pitfalls like incorrect load connections and circuit damage.
-
 
 
 

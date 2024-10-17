@@ -20,6 +20,12 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 - 🛠️ **Speed Regulation**: Use **Pulse Width Modulation (PWM)** for fine-grained control over motor speed.
 - ⚙️ **Efficient Design**: Built using **MOSFETs** or **BJTs** for optimized performance, making it ideal for both **low-power** and **high-power** applications.
 
+
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
+  <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
+</div>
+
 ---
 
 
@@ -29,6 +35,15 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 
 ### 🛠️ **Key Considerations for H-Bridge Circuit Design**
+
+
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
+  <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
+</div>
+
+---
+
 
 1. **Switching Components and Current Capacity**  
    - It's crucial to select transistors or switching components that can handle sufficient current. For example, if your transistor is rated for a maximum of 2 amperes, exceeding this value can cause **damage** to the component.

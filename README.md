@@ -584,3 +584,105 @@ These resources offer practical and theoretical insights into H-Bridge circuits 
    The H-Bridge Circuit is essential for controlling the speed and direction of DC motors. It is named after its unique "H" shape configuration and is widely used in robotics, embedded systems, and automation projects. The circuit enables smooth motor rotation in both forward and reverse directions by switching the current flow across the motor.
   </p>
 </div>
+
+
+
+
+
+
+
+## **📚 Tutorial References**
+
+- [Getting Started with MIT App Inventor](https://appinventor.mit.edu/explore/ai2/tutorials/) *A comprehensive guide to help you begin your journey with MIT App Inventor.*
+
+- [Build Your First App](https://appinventor.mit.edu/explore/ai2/tutorials/firstapp/)  *Step-by-step instructions to create your very first mobile application.*
+
+- [MIT App Inventor Documentation](http://appinventor.mit.edu/explore/ai2/docs/)  *Official documentation containing detailed information on all features and functionalities.*
+
+- [Connecting to Bluetooth Devices](https://appinventor.mit.edu/explore/ai2/tutorials/bluetooth/)  *Learn how to establish a Bluetooth connection between your app and hardware devices.*
+
+- [Using the Location Sensor](https://appinventor.mit.edu/explore/ai2/tutorials/location/)  *A guide to using GPS location data within your applications.*
+
+- [Creating a Simple IoT App](https://appinventor.mit.edu/explore/ai2/tutorials/iot/)  *Instructions for building your first Internet of Things (IoT) application.*
+
+- [How to Use the Firebase Database](https://appinventor.mit.edu/explore/ai2/tutorials/firebase/)  *Learn how to integrate Firebase for real-time data storage and retrieval.*
+
+- [App Inventor for Educators](https://appinventor.mit.edu/explore/ai2/educators/)  *Resources and strategies for educators looking to teach app development.*
+
+- [Advanced Features in MIT App Inventor](https://appinventor.mit.edu/explore/ai2/tutorials/advanced/)  *Explore advanced functionalities to enhance your applications.*
+
+<hr style="border: none; height: 2px; background-color: #2E8B57; margin-top: 20px; margin-bottom: 20px; border-radius: 5px;">
+
+</br>
+
+
+## **📌 Tags**
+
+[MIT App Inventor](http://appinventor.mit.edu/), [Mobile App Development](https://en.wikipedia.org/wiki/Mobile_app), [IoT](https://en.wikipedia.org/wiki/Internet_of_things), [Hardware Interfacing](https://en.wikipedia.org/wiki/Embedded_system), [Sensors](https://en.wikipedia.org/wiki/Sensor), [Bluetooth](https://en.wikipedia.org/wiki/Bluetooth), [GPS Tracking](https://en.wikipedia.org/wiki/Global_Positioning_System), [Real-Time Data](https://en.wikipedia.org/wiki/Real-time_computing), [Arduino Integration](https://www.arduino.cc/), [Robotics](https://en.wikipedia.org/wiki/Robotics), [No-Code Development](https://en.wikipedia.org/wiki/No-code_development_platform), [Cloud Integration](https://en.wikipedia.org/wiki/Cloud_computing)
+
+
+<hr style="border: none; height: 2px; background-color: #2E8B57; margin-top: 20px; margin-bottom: 20px; border-radius: 5px;">
+
+</br>
+
+
+
+## ⚗️ **Examples Gallery**
+
+More App Inventor Tutorials for Beginners
+
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/AppInventor_ImageContent_Disgner.png">  Designers Interface |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/AppInventor_ImageContent_QRcode.png"> App and QR Code | <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/AppInventor_ImageContent_Windows.png?raw=true"> Pallets, View and Properties |
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/AppInventor_ImageContent_des2.png?raw=true"> Online Emulator  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/AppInventor_ImageContent_esi1.png?raw=true"> Tutorial image |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/AppInventor_ImageContent_intwer.png?raw=true"> Starting Screen |
+|<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/AppInventor_Banner_6b.png?raw=true"> Tutorial image 1  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/MIT%20App%20Inventor2%20Tutorials_1.jpg?raw=true"> Tutorial image 2 | <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/MIT%20App%20Inventor2%20Tutorials_3.png?raw=true">Tutorial image 3 |
+
+
+<br/>
+<br/>
+
+<hr style="border: none; height: 2px; background-color: #2E8B57; margin-top: 20px; margin-bottom: 20px; border-radius: 5px;">
+
+</br>
+
+A list of things:
+- [X] Googley Eyes
+- [X] Tesco Clubcard
+- [ ] The Elizibeth Line
+- [ ] Beans on Toast
+- [ ] My Current Account
+
+
+<details>
+    <summary>Collapsable Title</summary>
+    <p>Put Content Here</p>
+</details>
+
+[![Github Readme Daily Quotes](https://readme-daily-quotes.vercel.app/api)](https://github.com/cheehwatang/github-readme-daily-quotes)
+
+<hr style="border: none; height: 2px; background-color: #2E8B57; margin-top: 20px; margin-bottom: 20px; border-radius: 5px;">
+<hr style="border: none; height: 2px; background-color: #2E8B57; margin-top: 20px; margin-bottom: 20px; border-radius: 5px;">
+
+
+
+<p align="left">
+  This is some text that will flow around the image to the right. You can write paragraphs of text here, and it will wrap around the image. The image is floated to the right, so this text will automatically adjust itself alongside it.
+</p>
+
+<img src="https://github.com/gmostofabd/App-Inventor-Examples/blob/b17d63de08a42618e3740c9a012aa9264510f0b2/assets/images/5960185.png" align="right" width="200" alt="description of image">
+
+<p align="left">
+  More text that continues to wrap around the image on the right side. You can write as much as you'd like, and it will keep flowing next to the image.
+</p>
+
+### Basic styling {#basic-styling}
+
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#exr`
+- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
+- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
+
+---
+
+</br>
+
+

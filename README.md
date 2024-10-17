@@ -16,15 +16,16 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 
 ## ✨ **Key Features**
-- 🔄 **Bidirectional Control**: Seamlessly switch between **forward** and **reverse** motor rotation.
-- 🛠️ **Speed Regulation**: Use **Pulse Width Modulation (PWM)** for fine-grained control over motor speed.
-- ⚙️ **Efficient Design**: Built using **MOSFETs** or **BJTs** for optimized performance, making it ideal for both **low-power** and **high-power** applications.
-
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
+  <h3 style="margin-top: 20px;">H-Bridge Circuit Features</h3>
 </div>
+
+
+- 🔄 **Bidirectional Control**: Seamlessly switch between **forward** and **reverse** motor rotation.
+- 🛠️ **Speed Regulation**: Use **Pulse Width Modulation (PWM)** for fine-grained control over motor speed.
+- ⚙️ **Efficient Design**: Built using **MOSFETs** or **BJTs** for optimized performance, making it ideal for both **low-power** and **high-power** applications.
 
 ---
 
@@ -39,7 +40,7 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
+  <h3 style="margin-top: 20px;">H-Bridge Circuit Considerations</h3>
 </div>
 
 ---
@@ -73,16 +74,6 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 </div>
 
 ---
-
-By following these guidelines, you can ensure that your H-Bridge circuit operates safely and efficiently, protecting both your components and your circuit.
-
-
-
-
-
----
-
-</br>
 
 
 [View my HTML page](https://gmostofabd.github.io/8051-Assembly-Programming-and-Proteus-Simulation/index.html)
@@ -118,19 +109,7 @@ In an H-Bridge circuit, the **placement of transistors** is crucial for the corr
 
 By placing **PNP transistors on the upper side** and **NPN transistors on the lower side**, you can control the **direction of current flow** and ensure proper operation of the H-Bridge circuit for **bidirectional motor control** or other applications like **inverters** and **power amplifiers**.
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 50%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/371d179cd57c97ad1d82e3bd396f6d85d30a6f02/assets/images/555_PWM.jpg" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">H-Bridge Circuit with PNP and NPN Transistors</h3>
-</div>
-
----
-
 This approach ensures efficient current flow management and helps you avoid common pitfalls like incorrect load connections and circuit damage.
-
-
-
-
-
 
 
 
@@ -155,7 +134,7 @@ This allows you to measure the **12.3V DC** output using a multimeter or directl
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 50%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/371d179cd57c97ad1d82e3bd396f6d85d30a6f02/assets/images/DC%20Motor%204.jpg" alt="H-Bridge Circuit Diagram" width="60%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">H-Bridge Circuit with PNP and NPN Transistors</h3>
+  <h3 style="margin-top: 20px;">A DC Motor</h3>
 </div>
 
 ---
@@ -397,6 +376,12 @@ The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configur
 
 The number of control line inputs in an H-Bridge circuit significantly impacts its functionality, control complexity, and flexibility. Here’s a breakdown of how using different numbers of control lines—such as 2, 4, or even more—affects the operation of the H-Bridge:
 
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/7f1a3c14b4dc43f90e75c51e9f792d62f8518bbd/assets/images/FacilitiesofH-BridgeCircuits.png" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
+  <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
+</div>
+
+---
 
 
 

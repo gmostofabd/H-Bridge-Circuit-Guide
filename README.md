@@ -76,6 +76,7 @@ By following these guidelines, you can ensure that your H-Bridge circuit operate
 </br>
 
 
+[View my HTML page](https://gmostofabd.github.io/8051-Assembly-Programming-and-Proteus-Simulation/index.html)
 
 
 

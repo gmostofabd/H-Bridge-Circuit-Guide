@@ -1,7 +1,7 @@
 # 🎨 **H-Bridge Circuit Guide:** ***Control Your DC Motor Like a Pro*** 🛠️
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/1ff3556ab04c3834a8773daedc25ae04b6482cfe/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN)_3.gif" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 90%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/1ff3556ab04c3834a8773daedc25ae04b6482cfe/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN)_3.gif" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
 </div>
 
@@ -19,8 +19,9 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">H-Bridge Circuit Features</h3>
 </div>
+
+</br>
 
 
 - 🔄 **Bidirectional Control**: Seamlessly switch between **forward** and **reverse** motor rotation.
@@ -38,10 +39,11 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 ### 🛠️ **Key Considerations for H-Bridge Circuit Design**
 
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">H-Bridge Circuit Considerations</h3>
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 900%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
 </div>
+
+</br>
 
 ---
 
@@ -77,8 +79,6 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 
 [View my HTML page](https://gmostofabd.github.io/8051-Assembly-Programming-and-Proteus-Simulation/index.html)
-
-
 
 
 

@@ -9,9 +9,11 @@
 
 
 ### ⚡ **Overview**
-<p align="left">
+<p align="justify">
+  
 The **H-Bridge Circuit** is essential for controlling the **speed** and **direction** of **DC motors**. It is named after its unique "H" shape configuration and is widely used in **robotics**, **embedded systems**, and **automation** projects. The circuit enables smooth motor rotation in both **forward** and **reverse** directions by switching the current flow across the motor.
-</p>
+
+</p>  
 
 
 ---
@@ -22,16 +24,15 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
-</div>
+</div>  
 
-
-
+<br>
 
 - 🔄 **Bidirectional Control**: Seamlessly switch between **forward** and **reverse** motor rotation.
 - 🛠️ **Speed Regulation**: Use **Pulse Width Modulation (PWM)** for fine-grained control over motor speed.
 - ⚙️ **Efficient Design**: Built using **MOSFETs** or **BJTs** for optimized performance, making it ideal for both **low-power** and **high-power** applications.
 
-
+<br>
 
 ---
 
@@ -46,9 +47,8 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
-</div>
+</div>  
 
-</br>
 
 ---
 
@@ -66,11 +66,10 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
    - When **timing** and **sensitivity** are critical, transistors are preferred over magnetic relays. While magnetic relays are suitable for handling **higher currents**, they are not ideal when precise timing is required.
 
 5. **Voltage Drops Across Switching Components**  
-   - Always account for the **voltage drops** across the transistors or relays. This can affect the overall performance of your circuit, especially in low-voltage applications.
+   - Always account for the **voltage drops** across the transistors or relays. This can affect the overall performance of your circuit, especially in low-voltage applications.-  
 
----
+---  
 
-</br>
 
 
 ### Example: H-Bridge Circuit with Transistors
@@ -78,20 +77,22 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/c9a6fa3914d6b2e107c8326d4fe7ebf02e52e27d/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN).gif" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">H-Bridge Circuit with Transistors</h3>
-</div>
+</div>  
 
 ---
 
 
-[View my HTML page](https://gmostofabd.github.io/8051-Assembly-Programming-and-Proteus-Simulation/index.html)
+[View my HTML page](https://gmostofabd.github.io/8051-Assembly-Programming-and-Proteus-Simulation/index.html)  
 
 
 
 ### 🛠️ **Locating Transistors in an H-Bridge Circuit**
 
 <p align="left">
+  
 In an H-Bridge circuit, the **placement of transistors** is crucial for the correct operation of the circuit. As shown in the image above, **PNP transistors** are located at the **upper side** of the circuit, while **NPN transistors** are positioned at the **bottom side**.  
-</p>
+  
+</p>  
 
 ---
 

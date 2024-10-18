@@ -1,8 +1,7 @@
 # 🎨 **H-Bridge Circuit Guide:** ***Control Your DC Motor Like a Pro*** 🛠️
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/1ff3556ab04c3834a8773daedc25ae04b6482cfe/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN)_3.gif" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/426d9cf13949a8205c605b356221d9e92d114a70/assets/images/H%20BRIDGE%20CIRCUITS_Intro_1b.gif" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 ---
@@ -18,12 +17,14 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 ---
 
-
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif" alt="H-Bridge Circuit Diagram" width="70%" style="border-radius: 8px;">
+</div>  
 
 # ✨ **Key Features**
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 <br>
@@ -46,11 +47,74 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 
 ---
+
+
+
+
+# Example: H-Bridge Circuit with Transistors
+
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/c9a6fa3914d6b2e107c8326d4fe7ebf02e52e27d/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN).gif" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
+  <h3 style="margin-top: 20px;">H-Bridge Circuit with Transistors</h3>
+</div>  
+
+---
+
+
+## 🔧 **Types of H-Bridge Circuits**
+
+### 1. **Mechanical H-Bridge** 🕹️
+   - **Description**: Relies on **mechanical switches** or **relays** to control motor direction.
+   - **Pros**: Simple and easy to implement.
+   - **Cons**: **Slower** operation and **shorter lifespan** due to mechanical wear.
+
+### 2. **Transistor-based H-Bridge** 💡
+   - **Description**: Uses **BJTs** or **MOSFETs** to electronically switch current.
+   - **Pros**: **Fast switching** and **reliable** performance.
+   - **Cons**: BJTs are less efficient than MOSFETs.
+
+### 3. **Complementary MOSFET H-Bridge** 🔋
+   - **Description**: Combines **N-channel** and **P-channel** MOSFETs for a balanced design.
+   - **Pros**: Good balance between **ease of control** and **performance**.
+   - **Cons**: **Higher complexity** due to the need for both types of MOSFETs.
+
+### 4. **N-channel MOSFET H-Bridge with Bootstrap** 🏎️
+   - **Description**: Uses only **N-channel MOSFETs**, improving efficiency.
+   - **Pros**: **Lower on-resistance** for higher efficiency.
+   - **Cons**: Requires a **bootstrap circuit** or **gate driver** for high-side switching.
+
+### 5. **IC-based H-Bridge** 🎛️
+   - **Description**: Fully integrated into an **IC** (e.g., **L298N**, **L293D**).
+   - **Pros**: **Compact** and **easy to use** with built-in protection features.
+   - **Cons**: Limited to **low-power** applications.
+
+---
+
+</br>
+
+
+
+
+[View my HTML page](https://gmostofabd.github.io/8051-Assembly-Programming-and-Proteus-Simulation/index.html)  
+
+
+
+## 🛠️ **Locating Transistors in an H-Bridge Circuit**
+
+<p align="left">
+  
+In an H-Bridge circuit, the **placement of transistors** is crucial for the correct operation of the circuit. As shown in the image above, **PNP transistors** are located at the **upper side** of the circuit, while **NPN transistors** are positioned at the **bottom side**.  
+  
+</p>  
+
+---
+
+</br>
 
 
 1. **Switching Components and Current Capacity**  
@@ -72,34 +136,9 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 
 
-### Example: H-Bridge Circuit with Transistors
-
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/c9a6fa3914d6b2e107c8326d4fe7ebf02e52e27d/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN).gif" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">H-Bridge Circuit with Transistors</h3>
-</div>  
-
----
 
 
-[View my HTML page](https://gmostofabd.github.io/8051-Assembly-Programming-and-Proteus-Simulation/index.html)  
-
-
-
-### 🛠️ **Locating Transistors in an H-Bridge Circuit**
-
-<p align="left">
-  
-In an H-Bridge circuit, the **placement of transistors** is crucial for the correct operation of the circuit. As shown in the image above, **PNP transistors** are located at the **upper side** of the circuit, while **NPN transistors** are positioned at the **bottom side**.  
-  
-</p>  
-
----
-
-</br>
-
-
-### 🔑 **Why is This Placement Important?**
+## 🔑 **Why is This Placement Important?**
 
 1. **Transistor Symbol and Current Flow**  
    - The **arrow mark** on the transistor symbol always indicates the **emitter** side.
@@ -161,9 +200,7 @@ If you connect an **NPN transistor** in the same way (to the positive voltage ou
 
 
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
-</div>
+
 
 
 ### 🔄 **Controlling Motor Rotation**
@@ -201,36 +238,6 @@ This organized flow ensures correct **voltage boosting**, **safe motor operation
 </br>
 
 
-## 🔧 **Types of H-Bridge Circuits**
-
-### 1. **Mechanical H-Bridge** 🕹️
-   - **Description**: Relies on **mechanical switches** or **relays** to control motor direction.
-   - **Pros**: Simple and easy to implement.
-   - **Cons**: **Slower** operation and **shorter lifespan** due to mechanical wear.
-
-### 2. **Transistor-based H-Bridge** 💡
-   - **Description**: Uses **BJTs** or **MOSFETs** to electronically switch current.
-   - **Pros**: **Fast switching** and **reliable** performance.
-   - **Cons**: BJTs are less efficient than MOSFETs.
-
-### 3. **Complementary MOSFET H-Bridge** 🔋
-   - **Description**: Combines **N-channel** and **P-channel** MOSFETs for a balanced design.
-   - **Pros**: Good balance between **ease of control** and **performance**.
-   - **Cons**: **Higher complexity** due to the need for both types of MOSFETs.
-
-### 4. **N-channel MOSFET H-Bridge with Bootstrap** 🏎️
-   - **Description**: Uses only **N-channel MOSFETs**, improving efficiency.
-   - **Pros**: **Lower on-resistance** for higher efficiency.
-   - **Cons**: Requires a **bootstrap circuit** or **gate driver** for high-side switching.
-
-### 5. **IC-based H-Bridge** 🎛️
-   - **Description**: Fully integrated into an **IC** (e.g., **L298N**, **L293D**).
-   - **Pros**: **Compact** and **easy to use** with built-in protection features.
-   - **Cons**: Limited to **low-power** applications.
-
----
-
-</br>
 
 ## 📌 **Why Use BJTs or MOSFETs in H-Bridge Circuits?**
 

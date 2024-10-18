@@ -1,7 +1,7 @@
 # 🎨 **H-Bridge Circuit Guide:**🛠️
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/426d9cf13949a8205c605b356221d9e92d114a70/assets/images/H%20BRIDGE%20CIRCUITS_Intro_1b.gif" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/426d9cf13949a8205c605b356221d9e92d114a70/assets/images/H%20BRIDGE%20CIRCUITS_Intro_1b.gif?raw=true"" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 ---
@@ -18,13 +18,13 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 ---
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif" alt="H-Bridge Circuit Diagram" width="70%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif?raw=true"" alt="H-Bridge Circuit Diagram" width="70%" style="border-radius: 8px;">
 </div>  
 
 # ✨ **Key Features**
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg?raw=true"" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 <br>
@@ -47,7 +47,7 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg?raw=true"" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 
@@ -219,7 +219,7 @@ For example:
 - **Closing Switch 1 and Switch 4** while **Opening Switch 2 and Switch 3** will cause the current to flow in a direction that results in forward rotation of the motor.
   
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/5679607545cadf46939de2878cca5b8accee0079/assets/images/H%20BRIDGE%20CIRCUITS_2b.gif" alt="H-Bridge Circuit Current Flow Diagram" width="60%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/5679607545cadf46939de2878cca5b8accee0079/assets/images/H%20BRIDGE%20CIRCUITS_2b.gif?raw=true"" alt="H-Bridge Circuit Current Flow Diagram" width="60%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">Current Flow in H-Bridge Circuit (Switch 1 & 4 Closed)</h3>
 </div>
 
@@ -306,7 +306,7 @@ This organized flow ensures correct **voltage boosting**, **safe motor operation
 # 🎨 **Full Bridge Sine Inverter Circuit Guide:** ***Transform Your DC to AC Power with Ease*** ⚡
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://example.com/full_bridge_inverter.gif" alt="Full Bridge Inverter Circuit Diagram" width="60%" style="border-radius: 8px;">
+  <img src="https://example.com/full_bridge_inverter.gif?raw=true"" alt="Full Bridge Inverter Circuit Diagram" width="60%" style="border-radius: 8px;">
   
   <h3 style="margin-top: 20px;">Full Bridge Inverter Circuit Diagram</h3>
   <p align="justify" style="color: #555; font-size: 1.5em;">
@@ -338,7 +338,7 @@ The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configur
 
 
 ### **Example Full Bridge Inverter Simulation**
-![Full Bridge Inverter Simulation](https://example.com/full_bridge_inverter_simulation.gif) <!-- Replace with actual image or GIF link -->
+![Full Bridge Inverter Simulation](https://example.com/full_bridge_inverter_simulation.gif?raw=true") <!-- Replace with actual image or GIF link -->
 
 ---
 
@@ -401,7 +401,7 @@ The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configur
 
 
 ### **Example H-Bridge Circuit Simulation**
-![H-Bridge Simulation](https://example.com/h-bridge-simulation.gif) <!-- Replace with actual image or GIF link -->
+![H-Bridge Simulation](https://example.com/h-bridge-simulation.gif?raw=true") <!-- Replace with actual image or GIF link -->
 
 ---
 
@@ -726,7 +726,7 @@ A list of things:
   This is some text that will flow around the image to the right. You can write paragraphs of text here, and it will wrap around the image. The image is floated to the right, so this text will automatically adjust itself alongside it.
 </p>
 
-<img src="https://github.com/gmostofabd/App-Inventor-Examples/blob/b17d63de08a42618e3740c9a012aa9264510f0b2/assets/images/5960185.png" align="right" width="200" alt="description of image">
+<img src="https://github.com/gmostofabd/App-Inventor-Examples/blob/b17d63de08a42618e3740c9a012aa9264510f0b2/assets/images/5960185.png?raw=true"" align="right" width="200" alt="description of image">
 
 <p align="left">
   More text that continues to wrap around the image on the right side. You can write as much as you'd like, and it will keep flowing next to the image.

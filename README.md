@@ -1,7 +1,7 @@
 # 🎨 **H-Bridge Circuit Guide:**🛠️
 
 <div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 80%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/de3811bc8e62f24735f55b2351d4e84c0496f8d2/assets/images/H%20BRIDGE%20CIRCUITS_Intro_1d.gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/2a8319f85042f34ab144cee9690d1dfe25a1d48b/assets/images/H%20BRIDGE%20CIRCUITS_Intro_4_1a.gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 ---

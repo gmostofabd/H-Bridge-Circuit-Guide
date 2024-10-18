@@ -1,6 +1,6 @@
 # 🎨 **H-Bridge Circuit Guide:**🛠️
 
-<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 70%; margin: auto;">
+<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 80%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/426d9cf13949a8205c605b356221d9e92d114a70/assets/images/H%20BRIDGE%20CIRCUITS_Intro_1b.gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
@@ -17,7 +17,7 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 ---
 
-<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 70%; margin: auto;">
+<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 60%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 

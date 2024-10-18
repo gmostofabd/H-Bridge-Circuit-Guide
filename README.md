@@ -1,4 +1,4 @@
-# 🎨 **H-Bridge Circuit Guide:** ***Control Your DC Motor Like a Pro*** 🛠️
+# 🎨 **H-Bridge Circuit Guide:**🛠️
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/426d9cf13949a8205c605b356221d9e92d114a70/assets/images/H%20BRIDGE%20CIRCUITS_Intro_1b.gif" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
@@ -95,7 +95,7 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 ---
 
-</br>
+<br>
 
 
 
@@ -114,7 +114,7 @@ In an H-Bridge circuit, the **placement of transistors** is crucial for the corr
 
 ---
 
-</br>
+<br>
 
 
 1. **Switching Components and Current Capacity**  
@@ -151,7 +151,10 @@ In an H-Bridge circuit, the **placement of transistors** is crucial for the corr
 
 ---
 
-</br>
+
+<br>
+
+
 
 <p align="left">
 By placing **PNP transistors on the upper side** and **NPN transistors on the lower side**, you can control the **direction of current flow** and ensure proper operation of the H-Bridge circuit for **bidirectional motor control** or other applications like **inverters** and **power amplifiers**.  
@@ -167,7 +170,9 @@ When using **microcontrollers**, it's essential to note that most of them output
 
 ---
 
-</br>
+
+<br>
+
 
 
 ### 🖥️ **How PNP Transistors Help in Boosting Voltage**
@@ -186,7 +191,10 @@ This allows you to measure the **12.3V DC** output using a multimeter or directl
 
 ---
 
-</br>
+
+<br>
+
+
 
 
 ### ⚠️ **Incorrect NPN Transistor Placement**
@@ -195,7 +203,7 @@ If you connect an **NPN transistor** in the same way (to the positive voltage ou
 
 ---
 
-</br>
+<br>
 
 
 
@@ -217,7 +225,7 @@ For example:
 
 ---
 
-</br>
+<br>
 
 
 ### ⚡ **Preventing Residual Voltages with Diodes**
@@ -235,7 +243,7 @@ This organized flow ensures correct **voltage boosting**, **safe motor operation
 
 ---
 
-</br>
+<br>
 
 
 
@@ -257,7 +265,9 @@ This organized flow ensures correct **voltage boosting**, **safe motor operation
 - **Low-power applications** where simplicity and cost are more important than efficiency.
 
 ---
-</br>
+
+<br>
+
 
 ### **2. Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET)** H-Bridge
 
@@ -278,7 +288,8 @@ This organized flow ensures correct **voltage boosting**, **safe motor operation
 ---
 
 
-</br>
+<br>
+
 
 
 ## 🛠️ **Applications**
@@ -289,8 +300,7 @@ This organized flow ensures correct **voltage boosting**, **safe motor operation
   
 ---
 
-</br>
-
+<br>
 
 
 # 🎨 **Full Bridge Sine Inverter Circuit Guide:** ***Transform Your DC to AC Power with Ease*** ⚡
@@ -306,13 +316,16 @@ This organized flow ensures correct **voltage boosting**, **safe motor operation
 
 ---
 
-</br>
+
+<br>
+
 
 ### ⚡ **Overview**
 The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configuration of four switches (MOSFETs or IGBTs) to convert DC power into AC power. This design enables the generation of a sine wave output, which is crucial for powering sensitive electronic devices and appliances.
 
 ---
-</br>
+
+<br>
 
 
 ## 📝 **Resources and Links**
@@ -321,7 +334,7 @@ The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configur
 
 ---
 
-</br>
+<br>
 
 
 ### **Example Full Bridge Inverter Simulation**
@@ -329,8 +342,7 @@ The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configur
 
 ---
 
-</br>
-
+<br>
 
 
 
@@ -359,7 +371,10 @@ The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configur
          GND
 ```
 
-</br>
+
+<br>
+
+
 
 **Explanation**:
 - **S1 & S4** ON → **Forward Rotation**
@@ -367,7 +382,10 @@ The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configur
 
 ---
 
-</br>
+
+<br>
+
+
 
 ## 🔑 **Keywords**
 `H-Bridge | DC Motor Control | Transistor-based H-Bridge | MOSFET H-Bridge | Robotics | PWM Control | Motor Driver | Embedded Systems`
@@ -376,7 +394,10 @@ The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configur
 
 
 <
-</br>
+
+<br>
+
+
 
 
 ### **Example H-Bridge Circuit Simulation**
@@ -384,7 +405,10 @@ The **Full Bridge Sine Inverter** is a type of inverter that utilizes a configur
 
 ---
 
-</br>
+
+<br>
+
+
 
 
 ## 📝 **Number of control line inputs in an H-Bridge circuit**
@@ -438,7 +462,10 @@ While traditional H-Bridge configurations use multiple control inputs for flexib
 
 ---
 
-</br>
+
+<br>
+
+
 
 
 
@@ -457,7 +484,10 @@ While traditional H-Bridge configurations use multiple control inputs for flexib
 
 ---
 
-</br>
+
+<br>
+
+
 
 
 ### 3. **Four Control Inputs (Enhanced Control)**
@@ -482,7 +512,10 @@ While traditional H-Bridge configurations use multiple control inputs for flexib
 ---
 
 
-</br>
+
+<br>
+
+
 
 
 ### 3. **More than Four Control Inputs (Advanced Control)**
@@ -511,7 +544,10 @@ In summary, the number of control lines in an H-Bridge circuit directly influenc
 Choosing the appropriate configuration depends on the specific application requirements, the desired level of control, and the complexity you're willing to manage in both hardware and software.
 
 ---
-/br>
+
+<br>
+
+
 
 ## 📝 **Resources and Links**
 
@@ -521,7 +557,10 @@ Choosing the appropriate configuration depends on the specific application requi
 ---
 
 
-</br>
+
+<br>
+
+
 
 
 
@@ -549,37 +588,33 @@ These resources offer practical and theoretical insights into H-Bridge circuits 
 
 ---
 
-</br>
+
+<br>
+
+
 
 
 ## 📚 **References**
 
 1. **Li, Z., & Rahman, K. M. (2008).** *H-Bridge Based Power Converter for High Performance Motor Control*.  
-   - This paper discusses advanced control techniques for DC motors using H-Bridge power converters, focusing on efficiency and thermal management.
    - [Read the Paper](https://ieeexplore.ieee.org/document/4637254)  
   
 2. **Jahns, T. M. (1994).** *Controlled Rectifier Inverters and DC Motor Drives: A Unified Control Strategy*.  
-   - A foundational paper on using rectifier inverters for DC motor control with H-Bridge topology, highlighting control strategies and performance optimization.
    - [Read the Paper](https://ieeexplore.ieee.org/document/473243)  
   
 3. **Vasquez, J., Guerrero, J. M., & Lopez, J. (2011).** *Adaptive Control Techniques for H-Bridge Motor Drive Systems*.  
-   - Explores adaptive control algorithms applied to H-Bridge circuits for enhanced DC motor control, particularly in varying load conditions.
    - [Read the Paper](https://ieeexplore.ieee.org/document/6032228)  
   
 4. **Marwan, A., & Harb, M. (2019).** *PWM Techniques in H-Bridge Inverter Circuits for DC Motor Drives*.  
-   - A comprehensive study on the application of Pulse Width Modulation (PWM) in H-Bridge circuits to improve motor performance and efficiency.
    - [Read the Paper](https://www.sciencedirect.com/science/article/pii/S0196890419304567)  
   
 5. **Choi, H. H., & Chung, W. Y. (2006).** *Sensorless Control of DC Motors Using H-Bridge Inverter Circuits*.  
-   - Focuses on sensorless control strategies for DC motors with H-Bridge circuits, aiming to reduce system cost and complexity.
    - [Read the Paper](https://ieeexplore.ieee.org/document/4125962)  
   
 6. **Lee, C. M., & Park, S. Y. (2015).** *H-Bridge Based Control of Brushless DC Motors for Electric Vehicles*.  
-   - This paper looks at the application of H-Bridge motor control in electric vehicle systems, with an emphasis on efficiency and regenerative braking.
    - [Read the Paper](https://www.journalofenergy.com/article/1009387)
 
 7. **Sabanovic, A., & Sabri, H. (2017).** *Sliding Mode Control for H-Bridge DC Motor Drives*.  
-   - The paper introduces advanced control methodologies like sliding mode control to improve the performance of DC motors controlled via H-Bridge circuits.
    - [Read the Paper](https://link.springer.com/chapter/10.1007/978-3-319-67362-4_16)
 
 ---
@@ -623,7 +658,9 @@ These resources offer practical and theoretical insights into H-Bridge circuits 
 
 <hr style="border: none; height: 2px; background-color: #2E8B57; margin-top: 20px; margin-bottom: 20px; border-radius: 5px;">
 
-</br>
+
+<br>
+
 
 
 ## **📌 Tags**
@@ -633,7 +670,9 @@ These resources offer practical and theoretical insights into H-Bridge circuits 
 
 <hr style="border: none; height: 2px; background-color: #2E8B57; margin-top: 20px; margin-bottom: 20px; border-radius: 5px;">
 
-</br>
+
+<br>
+
 
 
 
@@ -648,12 +687,20 @@ More App Inventor Tutorials for Beginners
 |<img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/AppInventor_Banner_6b.png?raw=true"> Tutorial image 1  |  <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/MIT%20App%20Inventor2%20Tutorials_1.jpg?raw=true"> Tutorial image 2 | <img width="1604" alt="screen shot 2017-08-07 at 12 18 15 pm" src="https://github.com/gmostofabd/App-Inventor-Examples/blob/bc6ce03a1b035361ec5d01bd53047b61538aa0b6/assets/images/MIT%20App%20Inventor2%20Tutorials_3.png?raw=true">Tutorial image 3 |
 
 
-<br/>
-<br/>
+
+<br>
+
+
+<br>
+
+
 
 <hr style="border: none; height: 2px; background-color: #2E8B57; margin-top: 20px; margin-bottom: 20px; border-radius: 5px;">
 
-</br>
+
+<br>
+
+
 
 A list of things:
 - [X] Googley Eyes
@@ -693,6 +740,9 @@ A list of things:
 
 ---
 
-</br>
+
+<br>
+
+
 
 

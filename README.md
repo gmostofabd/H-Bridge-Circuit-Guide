@@ -19,6 +19,12 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 ## ⚡ **Introduction to H-Bridge Circuits**
 
+<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 60%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/616dd97a20916550b37f2516185567e7af0c0821/assets/images/H-Bridge%20Circuits%20GIF_2b.gif
+?raw=true" alt="H-Bridge Circuit Diagram" width="70%" style="border-radius: 8px;">
+</div>    
+
+
 <p align="justify">
   
 An H-Bridge circuit is a type of electronic circuit that allows a voltage to be applied across a load, such as a motor, in either direction. It is widely used in applications that require forward and reverse control of DC motors, making it an essential component in robotics, motor control systems, and other embedded projects.  

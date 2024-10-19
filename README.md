@@ -1,34 +1,31 @@
-# 🛠️ **H-Bridge Circuits Guide**
+# 🛠️ **H-Bridge Circuits** 🛠️
 
 <div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 80%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/2a8319f85042f34ab144cee9690d1dfe25a1d48b/assets/images/H%20BRIDGE%20CIRCUITS_Intro_4_1a.gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
-</div>  
-
----
+</div>    
 
 
 ## ⚡ **Overview**
 <p align="justify">
   
-The **H-Bridge Circuit** is essential for controlling the **speed** and **direction** of **DC motors**. It is named after its unique "H" shape configuration and is widely used in **robotics**, **embedded systems**, and **automation** projects. The circuit enables smooth motor rotation in both **forward** and **reverse** directions by switching the current flow across the motor.
+The **H-Bridge Circuit** is essential for controlling the **speed** and **direction** of **DC motors**. It is named after its unique "H" shape configuration and is widely used in **robotics**, **embedded systems**, and **automation** projects. The circuit enables smooth motor rotation in both **forward** and **reverse** directions by switching the current flow across the motor.  
 
-</p>   
+</p>     
 
 ---
+## ✨ **Circuit Diagram**
 
 <div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 80%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
-</div>  
+</div>    
 
-
+---
 
 ## ✨ **Key Features**
 
-
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 80%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
-</div>  
-
+</div>    
 
 <br>
 
@@ -50,7 +47,6 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 <br>
 
-
 ## 🛠️ **Key Considerations for H-Bridge Circuit Design**
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 80%; margin: auto;">
@@ -59,14 +55,13 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 ---
 
-## Example: H-Bridge Circuit with Transistors
+## ✨ Example: H-Bridge Circuit with Transistors.
 
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 80%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/c9a6fa3914d6b2e107c8326d4fe7ebf02e52e27d/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN).gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 ---
-
 
 ## 🔧 **Types of H-Bridge Circuits**
 
@@ -85,11 +80,9 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 <br>
 
 
-
-
 [View my HTML page](https://gmostofabd.github.io/8051-Assembly-Programming-and-Proteus-Simulation/index.html)  
 
-
+---
 
 ## 🛠️ **Locating Transistors in an H-Bridge Circuit**
 
@@ -131,7 +124,6 @@ In an H-Bridge circuit, the **placement of transistors** is crucial for the corr
    - For **NPN transistors**, with current flowing from the **Collector to the Emitter**, the load should be connected to the **input** side (Collector).
 
 ---
-
 
 <br>
 
@@ -196,71 +188,25 @@ Choosing the appropriate configuration depends on the specific application requi
 
 <br>
 
-
-
 ## 📚 **Tutorials on this Topic**
 
-
 1. **[SparkFun: H-Bridge Basics](https://learn.sparkfun.com/tutorials/h-bridge-motor-control)**  
-   - Covers the fundamentals of H-Bridge circuits for DC motor control.
 
 2. **[Electronics Hub: H-Bridge Motor Driver](https://www.electronicshub.org/h-bridge-dc-motor-driver-circuit/)**  
-   - Detailed guide on building and using H-Bridge circuits.
 
 3. **[RobotShop: DC Motor Control](https://www.robotshop.com/community/tutorials/show/dc-motor-control-using-an-h-bridge)**  
-   - Comprehensive motor control tutorial with H-Bridge circuits for robotics.
 
 4. **[All About Circuits: H-Bridge Theory](https://www.allaboutcircuits.com/technical-articles/h-bridge-theory-and-practice/)**  
-   - Explains the theory and practical application of H-Bridge motor control.
 
 5. **[Texas Instruments: H-Bridge Fundamentals](https://www.ti.com/lit/an/slva500/slva500.pdf)**  
-   - Application note on H-Bridge design and motor control techniques.
-
-These resources offer practical and theoretical insights into H-Bridge circuits for motor control.
-
 
 ---
-
-## **📚 Tutorial References**
-
-1. **[All About H-Bridge Circuits: Basics, Working, and Applications](https://www.electronicshub.org/h-bridge-circuit/)**  
-   This tutorial covers the fundamentals of H-Bridge circuits, including how they work and their common applications. A great starting point for beginners.
-
-2. **[H-Bridge Motor Control Theory](https://www.sparkfun.com/tutorials/220)**  
-   Learn about the theory behind controlling DC motors with H-Bridge circuits. This guide provides detailed explanations with circuit diagrams and examples.
-
-3. **[How to Design and Build an H-Bridge for Motor Control](https://www.instructables.com/How-to-Design-an-H-Bridge-Circuit/)**  
-   A hands-on guide for designing and building your own H-Bridge. Step-by-step instructions with practical tips for successful implementation.
-
-4. **[H-Bridge Circuit Design for DC Motor Control](https://www.circuitdigest.com/tutorial/h-bridge-dc-motor)**  
-   This tutorial dives deep into H-Bridge circuit design, explaining each component's role and how to connect them for motor control applications.
-
-5. **[DC Motor Control with L298 H-Bridge Module](https://www.arduino.cc/en/Tutorial/L298N)**  
-   Learn how to use the popular L298N H-Bridge module for motor control in your Arduino projects. The tutorial includes a complete wiring guide and code examples.
-
-6. **[H-Bridge DC Motor Driver ICs: L293D and L298N](https://components101.com/h-bridge-motor-driver)**  
-   A comparison of two popular H-Bridge motor driver ICs (L293D and L298N), including pin configurations, working principles, and circuit examples.
-
-7. **[MOSFET-Based H-Bridge Design](https://www.youtube.com/watch?v=XHlgNL2GVxk)**  
-   Video tutorial demonstrating the design and working of an H-Bridge using MOSFETs. This guide is perfect for those interested in high-efficiency motor control.
-
-8. **[H-Bridge with PWM Control for DC Motor Speed](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en602139)**  
-   This application note from Microchip explains how to implement Pulse Width Modulation (PWM) control with an H-Bridge to control DC motor speed.
-
-9. **[DIY H-Bridge Circuit Design and Testing](https://www.electronics-tutorials.ws/blog/h-bridge.html)**  
-   A complete walkthrough of building a DIY H-Bridge circuit, from theory to practical testing. The tutorial is focused on hands-on circuit design.
-
-10. **[H-Bridge Simulation and Testing in Proteus](https://www.theengineeringprojects.com/2021/04/h-bridge-dc-motor-proteus.html)**  
-    Step-by-step instructions for simulating and testing H-Bridge circuits in Proteus software, making it easy to prototype before actual implementation.
 
 ### Additional Resources
 
 - **[Understanding DC Motor Drivers and H-Bridges](https://www.pololu.com/blog/12/understanding-dc-motor-drivers)**  
-  A blog post discussing different types of DC motor drivers, focusing on the design and functionality of H-Bridges.
 
 - **[Controlling DC Motors with Arduino and H-Bridge](https://www.tutorialspoint.com/controlling-dc-motor-using-h-bridge-in-arduino)**  
-  An easy-to-follow Arduino tutorial for controlling DC motors using an H-Bridge, including the necessary code and wiring diagrams.
-
 
 <br>
 
@@ -303,15 +249,14 @@ A list of things:
 
 <br>
 
-
-<br>
-
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/af3ed22c99e6b4c4dda2b82cd099a4f8e237fb85/assets/images/H%20BRIDGE%20CIRCUITS.gif" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
+  
   <p align="justify" style="color: #555; font-size: 1.5em;">
    The H-Bridge Circuit is essential for controlling the speed and direction of DC motors. It is named after its unique "H" shape configuration and is widely used in robotics, embedded systems, and automation projects. The circuit enables smooth motor rotation in both forward and reverse directions by switching the current flow across the motor.
   </p>
+  
 </div>
 
 

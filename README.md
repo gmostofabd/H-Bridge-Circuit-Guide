@@ -1,10 +1,11 @@
 # 🛠️ **H-Bridge Circuits**
 
-<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 80%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/2a8319f85042f34ab144cee9690d1dfe25a1d48b/assets/images/H%20BRIDGE%20CIRCUITS_Intro_4_1a.gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
+<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 60%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/ac6fd53b4b33d129b33ee52ea51257726469239c/assets/images/Presentation6e.gif?raw=true" alt="H-Bridge Circuit Diagram" width="70%" style="border-radius: 8px;">
 </div>    
 
 <br>
+
 
 <p align="justify">
   
@@ -105,6 +106,16 @@ Understanding **H-Bridge circuits** is crucial for anyone involved in electronic
 ---
 
 <br>
+
+<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 80%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/2a8319f85042f34ab144cee9690d1dfe25a1d48b/assets/images/H%20BRIDGE%20CIRCUITS_Intro_4_1a.gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
+</div>    
+
+
+
+
+
+
 <br>
 
 ## 🛠️ **Key Considerations for H-Bridge Circuit Design**

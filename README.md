@@ -16,17 +16,17 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 
 ---
 
-<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 60%; margin: auto;">
+<div align="center" style="border: 2px solid #fff; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 80%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/0196677bb0e9e28d16f8f74ac4f2d1020e6a2614/assets/images/H%20BRIDGE%20CIRCUITS_a.gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 
 
-# ✨ **Key Features**
+## ✨ **Key Features**
 
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 70%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg?raw=true" alt="H-Bridge Circuit Diagram" width="100%" style="border-radius: 8px;">
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #ffffff; width: 80%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/Feature1.jpg?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 
@@ -51,17 +51,17 @@ The **H-Bridge Circuit** is essential for controlling the **speed** and **direct
 <br>
 
 
-# 🛠️ **Key Considerations for H-Bridge Circuit Design**
+## 🛠️ **Key Considerations for H-Bridge Circuit Design**
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 80%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/092a852bbe99e0f229d2780a76a4a85bb864a236/assets/images/con1.jpg?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
 ---
 
-# Example: H-Bridge Circuit with Transistors
+## Example: H-Bridge Circuit with Transistors
 
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 70%; margin: auto;">
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 80%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/c9a6fa3914d6b2e107c8326d4fe7ebf02e52e27d/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN).gif?raw=true" alt="H-Bridge Circuit Diagram" width="90%" style="border-radius: 8px;">
 </div>  
 
@@ -99,8 +99,6 @@ In an H-Bridge circuit, the **placement of transistors** is crucial for the corr
   
 </p>  
 
----
-
 <br>
 
 
@@ -121,7 +119,7 @@ In an H-Bridge circuit, the **placement of transistors** is crucial for the corr
 
 ---  
 
-## 🔑 **Why is This Placement Important?**
+### 🔑 **Why is This Placement Important?**
 
 1. **Transistor Symbol and Current Flow**  
    - The **arrow mark** on the transistor symbol always indicates the **emitter** side.
@@ -137,7 +135,6 @@ In an H-Bridge circuit, the **placement of transistors** is crucial for the corr
 
 <br>
 
-
 <p align="left">
 By placing **PNP transistors on the upper side** and **NPN transistors on the lower side**, you can control the **direction of current flow** and ensure proper operation of the H-Bridge circuit for **bidirectional motor control** or other applications like **inverters** and **power amplifiers**.  
 </p>
@@ -152,35 +149,7 @@ When using **microcontrollers**, it's essential to note that most of them output
 
 ---
 
-
 <br>
-
-
-
-## 🔄 **Controlling Motor Rotation**
-
-Once the transistor placement is sorted, you can now focus on **switching** to control the **rotation direction** of the motor. As previously discussed, switching alters the current path, which in turn changes the **rotation direction** of the motor.
-
-For example:
-- **Closing Switch 1 and Switch 4** while **Opening Switch 2 and Switch 3** will cause the current to flow in a direction that results in forward rotation of the motor.
-  
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/5679607545cadf46939de2878cca5b8accee0079/assets/images/H%20BRIDGE%20CIRCUITS_2b.gif?raw=true"" alt="H-Bridge Circuit Current Flow Diagram" width="60%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">Current Flow in H-Bridge Circuit (Switch 1 & 4 Closed)</h3>
-</div>
-
----
-
-<br>
-
-
-### ⚡ **Preventing Residual Voltages with Diodes**
-
-After the motor has stopped, any **residual voltage** remaining in the circuit needs to be safely dissipated. If not, it could damage your components. This is why we connect **diodes** to create a **return path** for the voltage to flow to **Ground (GND)**.
-
-The diodes protect the circuit by directing the residual voltage safely to GND, ensuring that no lingering charge damages your transistors or other components.
-
----
 
 
 ## 📌 **Why Use BJTs or MOSFETs in H-Bridge Circuits?**
@@ -194,68 +163,12 @@ The diodes protect the circuit by directing the residual voltage safely to GND, 
 
 <br>
 
-
-
-
-
-
-
-
-
-
-## 📐 **Circuit Diagram** 
-
-```plaintext
-         +V
-          |
-      +---+---+
-      |       |
-    [S1]     [S2]  
-      |       |
-     MOTOR    MOTOR
-      |       |
-    [S3]     [S4]
-      |       |
-      +---+---+
-          |
-         GND
-```
-
-
-<br>
-
-**Explanation**:
-- **S1 & S4** ON → **Forward Rotation**
-- **S2 & S3** ON → **Reverse Rotation**
-
----
-
-
-<br>
-
-
-
 ## 🔑 **Keywords**
 `H-Bridge | DC Motor Control | Transistor-based H-Bridge | MOSFET H-Bridge | Robotics | PWM Control | Motor Driver | Embedded Systems`
 
 ---
 
-
-<
-
 <br>
-
-
-
-
-### **Example H-Bridge Circuit Simulation**
-![H-Bridge Simulation](https://example.com/h-bridge-simulation.gif?raw=true") <!-- Replace with actual image or GIF link -->
-
----
-
-
-<br>
-
 
 
 
@@ -266,9 +179,7 @@ The number of control line inputs in an H-Bridge circuit significantly impacts i
 <div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
   <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/7f1a3c14b4dc43f90e75c51e9f792d62f8518bbd/assets/images/FacilitiesofH-BridgeCircuits.png" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
   <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
-</div>
-
----
+</div>  
 
 ### 1. **Single Input Control**
 
@@ -276,60 +187,14 @@ The number of control line inputs in an H-Bridge circuit significantly impacts i
 
 ### 3. **Four Control Inputs (Enhanced Control)**
 
+### 4. **More than Four Control Inputs (Advanced Control)**
 
----
-
-
-
-<br>
-
-
-
-
-### 3. **More than Four Control Inputs (Advanced Control)**
-
-#### Functionality:
-- **Advanced Features**: Using additional control lines can enable even more features, such as:
-  - Synchronized control of multiple motors.
-  - Diagnostics and status feedback (e.g., current sensing).
-  - Integration with more sophisticated control algorithms (e.g., PID control).
-
-#### Advantages:
-- **Fine-Grained Control**: More options for control can lead to advanced functionalities, including smoother speed control, torque control, and coordination between multiple motors.
-- **Enhanced Features**: Additional functionalities like speed feedback, thermal shutdown, and error detection can be implemented.
-
-#### Disadvantages:
-- **High Complexity**: More control lines complicate both the hardware design and software implementation.
-- **Increased Cost**: More components may be needed, leading to higher costs and potentially increased power consumption.
-
-### Summary
-In summary, the number of control lines in an H-Bridge circuit directly influences how the circuit operates, the complexity of the control logic, and the range of functionalities that can be implemented. 
-
-- **2 Control Inputs**: Simple, basic control (forward/reverse/stop).
-- **4 Control Inputs**: More functionalities like braking and speed control; allows for a richer user experience.
-- **More than 4 Control Inputs**: Supports advanced features and better control schemes, but increases complexity and costs.
 
 Choosing the appropriate configuration depends on the specific application requirements, the desired level of control, and the complexity you're willing to manage in both hardware and software.
 
 ---
 
 <br>
-
-
-
-## 📝 **Resources and Links**
-
-- [🔗 L298N Motor Driver IC Datasheet](https://example.com/L298N-datasheet) <!-- Replace with actual link -->
-- [🔗 Introduction to Motor Control](https://example.com/motor-control-guide) <!-- Replace with actual link -->
-
----
-
-
-
-<br>
-
-
-
 
 
 
@@ -355,54 +220,6 @@ These resources offer practical and theoretical insights into H-Bridge circuits 
 
 
 ---
-
-
-<br>
-
-
-
-
-## 📚 **References**
-
-1. **Li, Z., & Rahman, K. M. (2008).** *H-Bridge Based Power Converter for High Performance Motor Control*.  
-   - [Read the Paper](https://ieeexplore.ieee.org/document/4637254)  
-  
-2. **Jahns, T. M. (1994).** *Controlled Rectifier Inverters and DC Motor Drives: A Unified Control Strategy*.  
-   - [Read the Paper](https://ieeexplore.ieee.org/document/473243)  
-  
-3. **Vasquez, J., Guerrero, J. M., & Lopez, J. (2011).** *Adaptive Control Techniques for H-Bridge Motor Drive Systems*.  
-   - [Read the Paper](https://ieeexplore.ieee.org/document/6032228)  
-  
-4. **Marwan, A., & Harb, M. (2019).** *PWM Techniques in H-Bridge Inverter Circuits for DC Motor Drives*.  
-   - [Read the Paper](https://www.sciencedirect.com/science/article/pii/S0196890419304567)  
-  
-5. **Choi, H. H., & Chung, W. Y. (2006).** *Sensorless Control of DC Motors Using H-Bridge Inverter Circuits*.  
-   - [Read the Paper](https://ieeexplore.ieee.org/document/4125962)  
-  
-6. **Lee, C. M., & Park, S. Y. (2015).** *H-Bridge Based Control of Brushless DC Motors for Electric Vehicles*.  
-   - [Read the Paper](https://www.journalofenergy.com/article/1009387)
-
-7. **Sabanovic, A., & Sabri, H. (2017).** *Sliding Mode Control for H-Bridge DC Motor Drives*.  
-   - [Read the Paper](https://link.springer.com/chapter/10.1007/978-3-319-67362-4_16)
-
----
-
-
-
-
-<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
-  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/af3ed22c99e6b4c4dda2b82cd099a4f8e237fb85/assets/images/H%20BRIDGE%20CIRCUITS.gif" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
-  <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
-  <p align="justify" style="color: #555; font-size: 1.5em;">
-   The H-Bridge Circuit is essential for controlling the speed and direction of DC motors. It is named after its unique "H" shape configuration and is widely used in robotics, embedded systems, and automation projects. The circuit enables smooth motor rotation in both forward and reverse directions by switching the current flow across the motor.
-  </p>
-</div>
-
-
-
-
-
-
 
 ## **📚 Tutorial References**
 
@@ -486,6 +303,16 @@ A list of things:
 
 <br>
 
+
+<br>
+
+<div align="center" style="border: 2px solid #ddd; padding: 20px; border-radius: 10px; background-color: #f9f9f9; width: 60%; margin: auto;">
+  <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/af3ed22c99e6b4c4dda2b82cd099a4f8e237fb85/assets/images/H%20BRIDGE%20CIRCUITS.gif" alt="H-Bridge Circuit Diagram" width="80%" style="border-radius: 8px;">
+  <h3 style="margin-top: 20px;">H-Bridge Circuit Diagram</h3>
+  <p align="justify" style="color: #555; font-size: 1.5em;">
+   The H-Bridge Circuit is essential for controlling the speed and direction of DC motors. It is named after its unique "H" shape configuration and is widely used in robotics, embedded systems, and automation projects. The circuit enables smooth motor rotation in both forward and reverse directions by switching the current flow across the motor.
+  </p>
+</div>
 
 
 

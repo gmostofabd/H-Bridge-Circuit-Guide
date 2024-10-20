@@ -154,6 +154,74 @@
             }
         }
 
+
+        
+        
+        
+        
+          /* Right column (image gallery) */
+        .right-column {
+            width: 30%;
+            padding-left: 20px;
+        }
+
+        /* Image gallery */
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* Each image in gallery */
+        .image-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Thumbnail style */
+        .image-item img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        /* Image hover effect */
+        .image-item img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Caption and description styles */
+        .caption {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .description {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         /* Footer styling */
         .footer {
             background-color: #2c3e50;
@@ -252,14 +320,61 @@
             <p><strong>Did you know?</strong> H-Bridge circuits can be used with PWM signals to provide smooth speed control for DC motors!</p>
         </div>
         <p>Find out more about H-Bridge circuits and their applications by exploring the detailed guide.</p>
-    </div>
-</div>
+   
+
+
+
+
+
+        <!-- Right Column for Image Gallery -->
+        
+   
+                <!-- First Image -->
+                <div class="image-item">
+                    <img src="https://via.placeholder.com/150" alt="Image 1">
+                    <div class="caption">Image 1</div>
+                    <div class="description">This is the description of the first image.</div>
+                </div>
+
+                <!-- Second Image -->
+                <div class="image-item">
+                    <img src="https://via.placeholder.com/150" alt="Image 2">
+                    <div class="caption">Image 2</div>
+                    <div class="description">This is the description of the second image.</div>
+                </div>
+
+                <!-- Third Image -->
+                <div class="image-item">
+                    <img src="https://via.placeholder.com/150" alt="Image 3">
+                    <div class="caption">Image 3</div>
+                    <div class="description">This is the description of the third image.</div>
+                </div>
+
+                <!-- Fourth Image -->
+                <div class="image-item">
+                    <img src="https://via.placeholder.com/150" alt="Image 4">
+                    <div class="caption">Image 4</div>
+                    <div class="description">This is the description of the fourth image.</div>
+                </div>
+        
+
+	</div>	
+
+ </div>
+
+
+
+
+
+
+    
+
 
 <!-- Image Gallery Section -->
 <div class="image-gallery">
-    <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/e907ddcf71e22d8416332e750b3bc803e88a5d38/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN).gif" alt="Image 1" onclick="openModal('image1.jpg')">
-    <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/e907ddcf71e22d8416332e750b3bc803e88a5d38/assets/images/H-Bridge%20Circuits%20GIF_2a.gif" alt="Image 2" onclick="openModal('image2.jpg')">
-    <img src="https://github.com/gmostofabd/H-Bridge-Circuit-Guide/blob/e907ddcf71e22d8416332e750b3bc803e88a5d38/assets/images/eOOET.png" alt="Image 3" onclick="openModal('image3.jpg')">
+    <img src="https://raw.githubusercontent.com/gmostofabd/H-Bridge-Circuit-Guide/e907ddcf71e22d8416332e750b3bc803e88a5d38/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN).gif" alt="Image 1" onclick="openModal('https://raw.githubusercontent.com/gmostofabd/H-Bridge-Circuit-Guide/e907ddcf71e22d8416332e750b3bc803e88a5d38/assets/images/H%20BRIDGE%20CIRCUITS%20(NPN).gif')">
+    <img src="https://raw.githubusercontent.com/gmostofabd/H-Bridge-Circuit-Guide/e907ddcf71e22d8416332e750b3bc803e88a5d38/assets/images/H-Bridge%20Circuits%20GIF_2a.gif" alt="Image 2" onclick="openModal('https://raw.githubusercontent.com/gmostofabd/H-Bridge-Circuit-Guide/e907ddcf71e22d8416332e750b3bc803e88a5d38/assets/images/H-Bridge%20Circuits%20GIF_2a.gif')">
+    <img src="https://raw.githubusercontent.com/gmostofabd/H-Bridge-Circuit-Guide/e907ddcf71e22d8416332e750b3bc803e88a5d38/assets/images/eOOET.png" alt="Image 3" onclick="openModal('https://raw.githubusercontent.com/gmostofabd/H-Bridge-Circuit-Guide/e907ddcf71e22d8416332e750b3bc803e88a5d38/assets/images/eOOET.png')">
 </div>
 
 <!-- Modal for Image Gallery -->
@@ -267,6 +382,14 @@
     <span class="close-modal" onclick="closeModal()">&times;</span>
     <img id="modalImage" src="">
 </div>
+
+
+
+
+
+
+
+
 
 <!-- Footer Section -->
 <div class="footer">

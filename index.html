@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>H-Bridge Circuit Guide</title>
-   
+
+
+<link rel="canonical" href="/css-drop-shadows-without-images/demo/">
+
+
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/buttons.css">
+  <link rel="stylesheet" href="assets/css/forms.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
  <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
+
         .top-banner {
             background-color: #3498db;
             padding: 15px 0;
@@ -392,6 +408,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
 
 
@@ -408,6 +447,18 @@
         <li><a href="#applications">Applications</a></li>
     </ul>
 </div>
+
+
+
+
+    <!-- Home Page Content -->
+    <div class="home-banner">
+        <h1>H-Bridge Circuits</h1>
+        <p class="intro-text">AAA</p>
+    </div>
+
+
+
 
 <div class="container">
     <div class="content">
@@ -582,28 +633,6 @@ A list of things:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	    
 
 
@@ -617,55 +646,12 @@ A list of things:
     </div>
 
 
-            <section class="containerSections">
-                <h2 class="section-title">Components Required</h2>
-                <ul>
-                    <li><span class="icon">🔌</span>Motor Driver IC (e.g., L298N)</li>
-                    <li><span class="icon">💡</span>DC Motor</li>
-                    <li><span class="icon">🔋</span>Power Supply (e.g., 9V Battery)</li>
-                    <li><span class="icon">⚙️</span>Microcontroller (e.g., Arduino)</li>
-                    <li><span class="icon">🎛️</span>Control Signals</li>
-                </ul>
-            </section>
-
-            <section class="containerSections">
-                <h2 class="section-title">Schematic Diagram</h2>
-                <div class="image-container">
-                    <img src="https://via.placeholder.com/400x300" alt="H-Bridge Schematic Diagram">
-                </div>
-            </section>
-
-            <section class="containerSections">
-                <h2 class="section-title">Working Principle</h2>
-                <p>The H-Bridge circuit controls the motor's direction using control signals. By applying different signals to the inputs of the motor driver IC, the polarity of the voltage across the motor is changed, thus reversing its direction.</p>
-                <div class="highlight">Note: Ensure the motor driver can handle the motor's voltage and current specifications.</div>
-            </section>
-
-            <section class="containerSections">
-                <h2 class="section-title">Applications</h2>
-                <ul>
-                    <li>Robotics</li>
-                    <li>Automated Vehicles</li>
-                    <li>Industrial Equipment</li>
-                    <li>Fan Control</li>
-                </ul>
-            </section>
-
-            <section class="containerSections">
-                <h2 class="section-title">Testing</h2>
-                <p>After assembling the H-Bridge circuit, it is essential to test it with varying PWM signals to observe the motor's speed and direction.</p>
-            </section>
-
-            <section class="containerSections">
-                <h2 class="section-title">Conclusion</h2>
-                <p>The H-Bridge circuit is a crucial component in motor control applications, offering versatility in direction and speed management.</p>
-            </section>
 
 
 
 
 
-
+ 
 
 	
 
@@ -678,7 +664,7 @@ A list of things:
    
 
 
-
+ 
 
 
         <!-- Right Column for Image Gallery -->
@@ -711,11 +697,71 @@ A list of things:
                     <div class="caption">Image 4</div>
                     <div class="description">This is the description of the fourth image.</div>
                 </div>
-        
 
-	</div>	
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="/css-drop-shadows-without-images/">CSS drop-shadows without images</a>
+
+    <div class="drop-shadow round">
+        <h1>CSS drop-shadows without images</h1>
+        <p>No extra markup, fluid, all modern browsers</p>
+    </div>
+    
+    <div class="drop-shadow curls">
+        <h1>Some curls</h1>
+        <p>No extra markup, all modern browsers</p>
+    </div>
+    
+    <div class="drop-shadow perspective">
+        <h1>Some perspective</h1>
+        <p>No extra markup, all modern browsers</p>
+    </div>
+    
+    <div class="drop-shadow raised">
+        <h1>Raised box</h1>
+        <p>No extra markup, all modern browsers</p>
+    </div>
+    
+    <div class="drop-shadow round rotated">
+        <h1>Rotated box</h1>
+        <p>No extra markup, all modern browsers. Needs a child element to work.</p>
+    </div>
+
+
+
+
 
 
 
@@ -745,6 +791,61 @@ A list of things:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function openModal(imageSrc) {
+        document.getElementById('galleryModal').style.display = 'flex';
+        document.getElementById('modalImage').src = imageSrc;
+    }
+
+    function closeModal() {
+        document.getElementById('galleryModal').style.display = 'none';
+    }
+</script> 
+
+
+
+
+
+
+    <!-- Button component with overridden style from home.css -->
+    <button class="button">Click Me</button>
+
+    <!-- Simple form with reused button styling -->
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Footer Section -->
 <div class="footer">
     <div class="links">
@@ -762,16 +863,13 @@ A list of things:
     <p>&copy; 2024 H-Bridge Circuit Guide. All Rights Reserved.</p>
 </div>
 
-<script>
-    function openModal(imageSrc) {
-        document.getElementById('galleryModal').style.display = 'flex';
-        document.getElementById('modalImage').src = imageSrc;
-    }
 
-    function closeModal() {
-        document.getElementById('galleryModal').style.display = 'none';
-    }
-</script>
+
+
+
+	
+
+
 
 </body>
 </html>
